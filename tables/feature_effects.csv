@@ -1,0 +1,9 @@
+feature,model,growth_at_min,growth_at_max,value_at_peak_growth,peak_growth,growth_range
+Temperature [C],Polynomial,0.161,0.174,36.09,0.365,0.204
+Temperature [C],KNN,0.293,0.158,35.487,0.386,0.228
+pH,Polynomial,0.0,0.0,6.959,0.361,0.361
+pH,KNN,0.153,0.095,6.895,0.361,0.266
+Glucose [mM],Polynomial,0.313,0.485,39.9,0.485,0.172
+Glucose [mM],KNN,0.314,0.399,29.674,0.417,0.104
+Lactate [mM],Polynomial,0.501,0.27,0.0,0.501,0.23
+Lactate [mM],KNN,0.46,0.265,6.633,0.521,0.278

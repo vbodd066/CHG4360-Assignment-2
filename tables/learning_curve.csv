@@ -1,0 +1,25 @@
+model,training_samples,best_params,train_rmse,test_rmse
+Polynomial,40,{'degree': 1},0.1857,0.189
+KNN,40,"{'n_neighbors': 11, 'weights': 'distance'}",0.0,0.1771
+Polynomial,60,{'degree': 1},0.1789,0.1975
+KNN,60,"{'n_neighbors': 4, 'weights': 'distance'}",0.0,0.1771
+Polynomial,80,{'degree': 1},0.1784,0.1769
+KNN,80,"{'n_neighbors': 6, 'weights': 'uniform'}",0.1283,0.165
+Polynomial,100,{'degree': 2},0.1468,0.1539
+KNN,100,"{'n_neighbors': 8, 'weights': 'distance'}",0.0,0.1508
+Polynomial,120,{'degree': 2},0.142,0.1511
+KNN,120,"{'n_neighbors': 7, 'weights': 'distance'}",0.0,0.1502
+Polynomial,140,{'degree': 2},0.1396,0.1583
+KNN,140,"{'n_neighbors': 7, 'weights': 'distance'}",0.0,0.16
+Polynomial,160,{'degree': 2},0.1413,0.158
+KNN,160,"{'n_neighbors': 6, 'weights': 'distance'}",0.0,0.1504
+Polynomial,180,{'degree': 2},0.1433,0.1552
+KNN,180,"{'n_neighbors': 11, 'weights': 'distance'}",0.0,0.1496
+Polynomial,200,{'degree': 2},0.1458,0.1493
+KNN,200,"{'n_neighbors': 10, 'weights': 'distance'}",0.0,0.1428
+Polynomial,220,{'degree': 2},0.1443,0.1484
+KNN,220,"{'n_neighbors': 10, 'weights': 'distance'}",0.0,0.1445
+Polynomial,240,{'degree': 2},0.1472,0.1454
+KNN,240,"{'n_neighbors': 12, 'weights': 'distance'}",0.0,0.1471
+Polynomial,254,{'degree': 2},0.1474,0.1455
+KNN,254,"{'n_neighbors': 13, 'weights': 'distance'}",0.0,0.1461
